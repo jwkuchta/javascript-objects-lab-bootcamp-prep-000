@@ -5,4 +5,4 @@ function incrementVariable(num) {
   return i;
 }
 
-console.log(incrementVariable())
+console.log(incrementVariable(10))
