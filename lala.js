@@ -1,10 +1,8 @@
-var recipes = {
-  flour: "500g",
-  water: "1 cup",
-  salt: "1 tsp",
-  yeast: "2 tsp",
-  oil: "1/4 cup"
+var i = 0;
+
+function incrementVariable() {
+  i = i + 1;
+  return i;
 }
 
-var newRecipes = Object.assign({}, recipes)
-console.log(newRecipes)
+console.log(incrementVariable)
