@@ -1,7 +1,7 @@
 var i = 0;
 
-function incrementVariable() {
-  i = i + 1;
+function incrementVariable(num) {
+  for(var i=0; i<num; i++)
   return i;
 }
 
